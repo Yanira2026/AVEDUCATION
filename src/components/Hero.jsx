@@ -28,11 +28,9 @@ export default function Hero() {
 
           <div className="max-w-3xl">
 
-            <p className="text-yellow-400 uppercase tracking-[0.3em] font-semibold mb-4">
-              Learning Today, Leading Tomorrow
-            </p>
+            
 
-            <h1 className="text-white font-bold text-4xl md:text-6xl lg:text-7xl leading-tight">
+            <h1 className="text-green-400 font-bold text-4xl md:text-6xl lg:text-7xl leading-tight">
               YAG EDUCATION
               <br />
               • Yanira Computer Education 
