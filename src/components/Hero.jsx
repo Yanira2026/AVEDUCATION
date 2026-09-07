@@ -35,7 +35,7 @@ export default function Hero() {
             <h1 className="text-white font-bold text-4xl md:text-6xl lg:text-7xl leading-tight">
               YAG EDUCATION
               <br />
-              Yanira • Annai Valarmathi • Golden Miracle
+              Yanira Computer Education • Annai Valarmathi Tuition Center • Golden Miracle Play School
             </h1>
 
 

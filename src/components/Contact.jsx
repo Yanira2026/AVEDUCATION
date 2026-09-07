@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { motion } from "framer-motion";
 import {
   FaPhoneAlt,
@@ -7,8 +8,38 @@ import {
 } from "react-icons/fa";
 
 export default function Contact() {
+  const [name, setName] = useState("");
+  const [phone, setPhone] = useState("");
+  const [institution, setInstitution] = useState("");
+  const [message, setMessage] = useState("");
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    if (!name.trim() || !phone.trim() || !institution || !message.trim()) {
+      alert("Please fill in all the details.");
+      return;
+    }
+
+    const whatsappMessage = `Hello AV Education,
+
+I would like to make an enquiry.
+
+Name: ${name}
+Phone: ${phone}
+Interested In: ${institution}
+
+Message:
+${message}`;
+
+    const whatsappUrl = `https://wa.me/918667060497?text=${encodeURIComponent(
+      whatsappMessage
+    )}`;
+
+    window.open(whatsappUrl, "_blank");
+  };
+
   return (
-    
     <section
       id="contact"
       className="relative bg-slate-950 py-24 px-6 overflow-hidden"
@@ -53,7 +84,6 @@ export default function Contact() {
             transition={{ duration: 0.6 }}
             className="rounded-3xl border border-white/10 bg-white/[0.04] backdrop-blur-xl p-8 md:p-10"
           >
-
             <h3 className="text-white text-2xl font-bold">
               Contact Information
             </h3>
@@ -125,7 +155,6 @@ export default function Contact() {
               <FaWhatsapp size={22} />
               Chat on WhatsApp
             </a>
-
           </motion.div>
 
           {/* Enquiry Form */}
@@ -136,7 +165,6 @@ export default function Contact() {
             transition={{ duration: 0.6 }}
             className="rounded-3xl border border-white/10 bg-white/[0.04] backdrop-blur-xl p-8 md:p-10"
           >
-
             <h3 className="text-white text-2xl font-bold">
               Send an Enquiry
             </h3>
@@ -145,7 +173,7 @@ export default function Contact() {
               Fill in your details and we'll get back to you.
             </p>
 
-            <form className="mt-8 space-y-5">
+            <form onSubmit={handleSubmit} className="mt-8 space-y-5">
 
               {/* Name */}
               <div>
@@ -156,6 +184,8 @@ export default function Contact() {
                 <input
                   type="text"
                   placeholder="Enter your name"
+                  value={name}
+                  onChange={(e) => setName(e.target.value)}
                   className="w-full mt-2 px-5 py-4 rounded-xl bg-white/5 border border-white/10 text-white placeholder-gray-500 outline-none focus:border-yellow-400 transition"
                 />
               </div>
@@ -169,6 +199,8 @@ export default function Contact() {
                 <input
                   type="tel"
                   placeholder="Enter your phone number"
+                  value={phone}
+                  onChange={(e) => setPhone(e.target.value)}
                   className="w-full mt-2 px-5 py-4 rounded-xl bg-white/5 border border-white/10 text-white placeholder-gray-500 outline-none focus:border-yellow-400 transition"
                 />
               </div>
@@ -180,22 +212,32 @@ export default function Contact() {
                 </label>
 
                 <select
+                  value={institution}
+                  onChange={(e) => setInstitution(e.target.value)}
                   className="w-full mt-2 px-5 py-4 rounded-xl bg-white/5 border border-white/10 text-white outline-none focus:border-yellow-400 transition"
-                  defaultValue=""
                 >
                   <option value="" disabled className="text-black">
                     Select Institution
                   </option>
 
-                  <option className="text-black">
+                  <option
+                    value="Annai Valarmathi Tuition Center"
+                    className="text-black"
+                  >
                     Annai Valarmathi Tuition Center
                   </option>
 
-                  <option className="text-black">
+                  <option
+                    value="Yanira Computer Education"
+                    className="text-black"
+                  >
                     Yanira Computer Education
                   </option>
 
-                  <option className="text-black">
+                  <option
+                    value="Golden Miracle Play School"
+                    className="text-black"
+                  >
                     Golden Miracle Play School
                   </option>
                 </select>
@@ -210,20 +252,21 @@ export default function Contact() {
                 <textarea
                   rows="4"
                   placeholder="How can we help you?"
+                  value={message}
+                  onChange={(e) => setMessage(e.target.value)}
                   className="w-full mt-2 px-5 py-4 rounded-xl bg-white/5 border border-white/10 text-white placeholder-gray-500 outline-none focus:border-yellow-400 transition resize-none"
                 />
               </div>
 
               {/* Submit */}
               <button
-                type="button"
+                type="submit"
                 className="w-full py-4 rounded-xl bg-gradient-to-r from-yellow-400 to-yellow-600 text-black font-bold hover:scale-[1.02] active:scale-[0.98] transition duration-300 shadow-xl"
               >
                 Send Enquiry →
               </button>
 
             </form>
-
           </motion.div>
 
         </div>
