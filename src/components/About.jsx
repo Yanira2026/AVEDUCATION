@@ -13,14 +13,12 @@ export default function About() {
           </p>
 
           <h2 className="text-white text-4xl md:text-5xl font-bold mt-4">
-            Annai Valarmathi
-            <br />
-            School of Education
+            YAG Education: A Legacy of Learning
           </h2>
 
           <p className="text-gray-300 mt-6 leading-relaxed text-lg">
-            Annai Valarmathi School of Education is a trusted educational
-            institution that nurtures students from early childhood learning
+            YAG Education is a trusted educational
+            institution and school that nurtures students from early childhood learning
             to advanced professional education through our three specialized
             institutions.
           </p>

@@ -1,20 +1,16 @@
 export default function Timeline() {
   const timeline = [
     {
-      year: "2017",
+      year: "2018",
       title: "Annai Valarmathi Tuition Center",
     },
     {
-      year: "2019",
+      year: "2022",
       title: "Golden Miracle Play School",
     },
     {
-      year: "2020",
+      year: "2023",
       title: "Yanira Computer Education",
-    },
-    {
-      year: "2026",
-      title: "2000+ Students Milestone",
     },
   ];
 

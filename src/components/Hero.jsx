@@ -28,9 +28,9 @@ export default function Hero() {
 
           <div className="max-w-3xl">
 
-            <h1 className="text-yellow-400 uppercase tracking-[0.3em] font-semibold mb-4">
+            <h6 className="text-yellow-400 uppercase tracking-[0.3em] font-semibold mb-4">
                YAG EDUCATION
-            </h1>
+            </h6>
 
             <h4 className="text-white font-bold text-4xl md:text-6xl lg:text-7xl leading-tight">
               Welcome to YAG Education
