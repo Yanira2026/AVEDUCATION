@@ -21,7 +21,7 @@ export default function Contact() {
       return;
     }
 
-    const whatsappMessage = `Hello AV Education,
+    const whatsappMessage = `Hello YAG Education,
 
 I would like to make an enquiry.
 
@@ -121,7 +121,7 @@ ${message}`;
                 </p>
 
                 <p className="text-white font-semibold mt-1">
-                  info@aveducation.com
+                  yaniracomputereducation@gmail.com
                 </p>
               </div>
             </div>
