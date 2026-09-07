@@ -1,8 +1,6 @@
 import {
-  FaFacebookF,
   FaInstagram,
   FaWhatsapp,
-  FaYoutube,
 } from "react-icons/fa";
 
 export default function Footer() {
@@ -13,6 +11,7 @@ export default function Footer() {
 
         <div className="grid md:grid-cols-3 gap-10">
 
+          {/* Brand */}
           <div>
             <h2 className="text-white text-2xl font-bold">
               AV Education
@@ -23,30 +22,46 @@ export default function Footer() {
             </p>
           </div>
 
+          {/* Quick Links */}
           <div>
             <h3 className="text-white font-semibold mb-4">
               Quick Links
             </h3>
 
             <div className="flex flex-col gap-2">
-              <a href="#home" className="text-gray-400 hover:text-yellow-400">
+
+              <a
+                href="#home"
+                className="text-gray-400 hover:text-yellow-400 transition"
+              >
                 Home
               </a>
 
-              <a href="#institutions" className="text-gray-400 hover:text-yellow-400">
+              <a
+                href="#institutions"
+                className="text-gray-400 hover:text-yellow-400 transition"
+              >
                 Institutions
               </a>
 
-              <a href="#gallery" className="text-gray-400 hover:text-yellow-400">
+              <a
+                href="#gallery"
+                className="text-gray-400 hover:text-yellow-400 transition"
+              >
                 Gallery
               </a>
 
-              <a href="#contact" className="text-gray-400 hover:text-yellow-400">
+              <a
+                href="#contact"
+                className="text-gray-400 hover:text-yellow-400 transition"
+              >
                 Contact
               </a>
+
             </div>
           </div>
 
+          {/* Social Media */}
           <div>
             <h3 className="text-white font-semibold mb-4">
               Follow Us
@@ -54,20 +69,16 @@ export default function Footer() {
 
             <div className="flex gap-4">
 
-              <button className="w-12 h-12 rounded-full bg-white/10 text-white hover:bg-yellow-400 hover:text-black transition">
-                <FaFacebookF />
+              <button
+                className="w-12 h-12 rounded-full bg-white/10 text-white hover:bg-yellow-400 hover:text-black transition flex items-center justify-center"
+              >
+                <FaInstagram size={20} />
               </button>
 
-              <button className="w-12 h-12 rounded-full bg-white/10 text-white hover:bg-yellow-400 hover:text-black transition">
-                <FaInstagram />
-              </button>
-
-              <button className="w-12 h-12 rounded-full bg-white/10 text-white hover:bg-yellow-400 hover:text-black transition">
-                <FaWhatsapp />
-              </button>
-
-              <button className="w-12 h-12 rounded-full bg-white/10 text-white hover:bg-yellow-400 hover:text-black transition">
-                <FaYoutube />
+              <button
+                className="w-12 h-12 rounded-full bg-white/10 text-white hover:bg-yellow-400 hover:text-black transition flex items-center justify-center"
+              >
+                <FaWhatsapp size={20} />
               </button>
 
             </div>
@@ -75,6 +86,7 @@ export default function Footer() {
 
         </div>
 
+        {/* Copyright */}
         <div className="border-t border-white/10 mt-10 pt-6 text-center text-gray-500">
           © 2026 Annai Valarmathi School of Education. All Rights Reserved.
         </div>
