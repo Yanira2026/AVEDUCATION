@@ -14,7 +14,7 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <h2 className="text-white text-2xl font-bold">
-              AV Education
+              YAG Education
             </h2>
 
             <p className="text-gray-400 mt-4">

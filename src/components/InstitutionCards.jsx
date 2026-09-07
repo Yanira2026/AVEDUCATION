@@ -8,6 +8,14 @@ import goldenLogo from "../assets/logos/golden-logo.png";
 
 export default function InstitutionCards() {
   const institutions = [
+      {
+      title: "Yanira Computer Education",
+      desc: "Full Stack Java, Python, PHP, AI, SAP, Data Science & Robotics.",
+      color: "from-pink-600 to-purple-900",
+      btn: "Explore Yanira",
+      logo: yaniraLogo,
+      link: "/yanira",
+    },
     {
       title: "Annai Valarmathi Tuition Center",
       desc: "CBSE & Matric Coaching for Academic Excellence.",
@@ -17,14 +25,7 @@ export default function InstitutionCards() {
       link: "/tuition-center",
     },
 
-    {
-      title: "Yanira Computer Education",
-      desc: "Full Stack Java, Python, PHP, AI, SAP, Data Science & Robotics.",
-      color: "from-pink-600 to-purple-900",
-      btn: "Explore Yanira",
-      logo: yaniraLogo,
-      link: "/yanira",
-    },
+    
 
     {
       title: "Golden Miracle Play School",

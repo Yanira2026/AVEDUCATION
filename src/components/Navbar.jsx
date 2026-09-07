@@ -21,7 +21,7 @@ export default function Navbar() {
           {/* Logo / Brand */}
           <div>
             <h1 className="text-white font-bold text-xl">
-              AV Education
+              YAG Education
             </h1>
 
             <p className="text-yellow-400 text-xs">

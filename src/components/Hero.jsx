@@ -33,21 +33,14 @@ export default function Hero() {
             </p>
 
             <h1 className="text-white font-bold text-4xl md:text-6xl lg:text-7xl leading-tight">
-              ANNAI VALARMATHI
+              YAG EDUCATION
               <br />
-              SCHOOL OF EDUCATION
+              Yanira • Annai Valarmathi • Golden Miracle
             </h1>
 
 
             <div className="flex flex-wrap gap-4 mt-10">
 
-              <button className="px-8 py-4 rounded-full bg-gradient-to-r from-yellow-400 to-yellow-600 text-black font-bold shadow-xl hover:scale-105 transition duration-300">
-                Explore Institutions
-              </button>
-
-              <button className="px-8 py-4 rounded-full border border-white text-white hover:bg-white hover:text-black transition duration-300">
-                Contact Us
-              </button>
 
             </div>
 
