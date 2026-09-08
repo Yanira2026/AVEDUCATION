@@ -60,16 +60,6 @@ export default function Footer() {
 
             </div>
           </div>
-
-          {/* Social Media */}
-          <div>
-            <h3 className="text-white font-semibold mb-4">
-              Follow Us
-            </h3>
-
-          
-          </div>
-
         </div>
 
         {/* Copyright */}
