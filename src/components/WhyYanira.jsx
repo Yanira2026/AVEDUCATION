@@ -1,7 +1,7 @@
 export default function WhyYanira() {
   const reasons = [
-    "9+ Years Experience",
-    "2000+ Students Trained",
+    "3+ Years Experience",
+    "500+ Students Trained",
     "Industry-Oriented Courses",
     "Practical Training",
     "Experienced Trainers",
