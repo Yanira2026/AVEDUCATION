@@ -33,11 +33,11 @@ export default function Hero() {
             <h4 className="text-white font-[Montserrat] font-bold text-4xl md:text-6xl lg:text-7xl leading-[1.15] tracking-wide">
   Welcome to YAG Education
   <br />
-  <span className="text-pink-400">• Yanira Computer Education</span>
+  <span className="text-pink-400">• YANIRA COMPUTER EDUCATION</span>
   <br />
-  <span className="text-blue-400">• Annai Valarmathi Tuition Center</span>
+  <span className="text-[#001F3F]">• ANNAI VALARMATHI TUITION CENTER</span>
   <br />
-  <span className="text-gold-400">• Golden Miracle Play School</span>
+  <span className="text-yellow-400">• GOLDEN MIRACLE PLAY SCHOOL</span>
 </h4>
 
 
