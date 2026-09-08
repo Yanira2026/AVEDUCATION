@@ -79,12 +79,10 @@ export default function TuitionContact() {
             </div>
 
           </div>
-          
+
           </div>
 
         </div>
-
-      </div>
 
     </section>
   );
