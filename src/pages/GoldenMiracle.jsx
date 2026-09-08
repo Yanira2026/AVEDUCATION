@@ -11,6 +11,10 @@ export default function GoldenMiracle() {
     "Creative Learning",
     "Fun Workshops",
     "Social Skills",
+    "Taraf Activities",
+    "Safe & Secure Playground",
+    "Abacus Training",
+    "Kabaddi Training",
   ];
 
   const programs = [
@@ -82,9 +86,6 @@ export default function GoldenMiracle() {
 
               </div>
 
-              <button className="mt-10 px-8 py-4 rounded-full bg-gradient-to-r from-yellow-400 to-green-500 text-white font-semibold shadow-lg hover:scale-105 transition">
-                Admission Open
-              </button>
 
             </div>
 
