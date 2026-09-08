@@ -16,17 +16,17 @@ export default function YaniraAbout() {
         <div className="grid md:grid-cols-4 gap-8 mt-16">
 
           <div className="bg-white/5 rounded-3xl p-8 text-center">
-            <h3 className="text-pink-400 text-4xl font-bold">9+</h3>
+            <h3 className="text-pink-400 text-4xl font-bold">3+</h3>
             <p className="text-white mt-3">Years Experience</p>
           </div>
 
           <div className="bg-white/5 rounded-3xl p-8 text-center">
-            <h3 className="text-pink-400 text-4xl font-bold">2000+</h3>
+            <h3 className="text-pink-400 text-4xl font-bold">500+</h3>
             <p className="text-white mt-3">Students</p>
           </div>
 
           <div className="bg-white/5 rounded-3xl p-8 text-center">
-            <h3 className="text-pink-400 text-4xl font-bold">50+</h3>
+            <h3 className="text-pink-400 text-4xl font-bold">20+</h3>
             <p className="text-white mt-3">Courses</p>
           </div>
 
