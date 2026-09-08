@@ -18,6 +18,7 @@ export default function GoldenMiracle() {
   ];
 
   const programs = [
+    "Play Group",
     "Pre KG",
     "LKG",
     "UKG",
@@ -272,8 +273,6 @@ export default function GoldenMiracle() {
 
           <p className="text-gray-600 mt-2">
             📞 9600081726
-          <br />        
-             📞 7871266967
           </p>
 
 
