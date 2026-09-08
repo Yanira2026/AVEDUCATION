@@ -267,16 +267,15 @@ export default function GoldenMiracle() {
           </h2>
 
           <p className="text-gray-600 mt-6">
-            📍 Add Play School Address
+            📍 N0:78,Devi Nagar,4th Street,Thiruverkadu,Chennai - 600077
           </p>
 
           <p className="text-gray-600 mt-2">
-            📞 Add Phone Number
+            📞 9600081726
+          <br />        
+             📞 7871266967
           </p>
 
-          <p className="text-gray-600 mt-2">
-            📸 @goldenmiracleplayschool
-          </p>
 
         </div>
 
