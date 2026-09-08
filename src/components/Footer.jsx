@@ -67,21 +67,7 @@ export default function Footer() {
               Follow Us
             </h3>
 
-            <div className="flex gap-4">
-
-              <button
-                className="w-12 h-12 rounded-full bg-white/10 text-white hover:bg-yellow-400 hover:text-black transition flex items-center justify-center"
-              >
-                <FaInstagram size={20} />
-              </button>
-
-              <button
-                className="w-12 h-12 rounded-full bg-white/10 text-white hover:bg-yellow-400 hover:text-black transition flex items-center justify-center"
-              >
-                <FaWhatsapp size={20} />
-              </button>
-
-            </div>
+          
           </div>
 
         </div>
