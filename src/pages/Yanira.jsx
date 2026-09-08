@@ -30,7 +30,7 @@ export default function Yanira() {
 
             <p className="text-gray-300 mt-6 text-lg">
               Professional IT Training Institute with
-              9+ Years Experience and 2000+ Students.
+              3k+ Years Experience and 500+ Students.
             </p>
 
             <div className="flex flex-wrap gap-4 mt-8">
