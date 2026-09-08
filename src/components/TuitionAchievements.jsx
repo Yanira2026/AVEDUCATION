@@ -1,16 +1,15 @@
 export default function TuitionAchievements() {
   const achievements = [
     {
-      number: "500+",
+      number: "2000+",
       title: "Students Guided",
     },
     {
-      number: "100+",
+      number: "500+",
       title: "Academic Achievers",
     },
     {
-      number: "50+",
-      title: "Weekly Tests Conducted",
+      title: "Weekly Tests Conducted for All Subjects",
     },
     {
       number: "100%",

@@ -79,25 +79,7 @@ export default function TuitionContact() {
             </div>
 
           </div>
-
-          <div className="bg-gradient-to-br from-yellow-400 to-yellow-600 rounded-3xl p-10 flex items-center justify-center">
-
-            <div className="text-center text-black">
-
-              <h3 className="text-4xl font-bold">
-                Admissions Open
-              </h3>
-
-              <p className="mt-4 text-lg">
-                Join Today & Start Your Success Journey
-              </p>
-
-              <button className="mt-8 px-8 py-4 rounded-full bg-black text-white font-semibold hover:scale-105 transition">
-                Contact Now
-              </button>
-
-            </div>
-
+          
           </div>
 
         </div>

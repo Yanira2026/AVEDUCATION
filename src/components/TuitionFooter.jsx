@@ -90,10 +90,6 @@ export default function TuitionFooter() {
               96000 81726
             </p>
 
-            <p className="flex items-center gap-3">
-              <FaInstagram className="text-yellow-400" />
-              @annai_valarmathi_tuition
-            </p>
 
             <p className="flex items-start gap-3">
               <FaMapMarkerAlt className="text-yellow-400 mt-1" />
