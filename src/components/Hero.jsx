@@ -28,19 +28,17 @@ export default function Hero() {
 
           <div className="max-w-3xl">
 
-            <h6 className="text-yellow-400 uppercase tracking-[0.3em] font-semibold mb-4">
-               YAG EDUCATION
-            </h6>
+            
 
-            <h4 className="text-white font-bold text-4xl md:text-6xl lg:text-7xl leading-tight">
-              Welcome to YAG Education
-              <br />
-              • Yanira Computer Education 
-              <br />
-              • Annai Valarmathi Tuition Center 
-              <br />
-              • Golden Miracle Play School
-            </h4>
+            <h4 className="text-white font-extrabold text-4xl md:text-6xl lg:text-7xl leading-[1.1]">
+  Welcome to YAG Education
+  <br />
+  <span className="text-pink-400">• Yanira Computer Education</span>
+  <br />
+  <span className="text-yellow-400">• Annai Valarmathi Tuition Center</span>
+  <br />
+  <span className="text-green-400">• Golden Miracle Play School</span>
+</h4>
 
 
             <div className="flex flex-wrap gap-4 mt-10">
