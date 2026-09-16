@@ -28,37 +28,36 @@ export default function Hero() {
 
           <div className="max-w-3xl">
 
+            {/* Main Heading */}
             <h5 className="text-green-500 font-[Poppins] font-extrabold text-4xl md:text-6xl lg:text-7xl leading-[1.1] tracking-tight">
-
               Welcome to YAG Education
+            </h5>
 
-              <br />
-              <br />
+            {/* Yanira + Training & Placement */}
+            <div className="flex items-center gap-4 mt-6 flex-nowrap">
 
-              {/* Yanira + Training & Placement */}
-              <div className="flex items-center gap-3 flex-wrap">
-                <span className="text-pink-400">
-                  • YANIRA COMPUTER EDUCATION
-                </span>
+              <span className="text-pink-400 font-[Poppins] font-extrabold text-4xl md:text-6xl lg:text-7xl leading-[1.1] tracking-tight whitespace-nowrap">
+                • YANIRA COMPUTER EDUCATION
+              </span>
 
-                <span className="text-white text-xs md:text-sm font-semibold tracking-wide animate-pulse">
-                  Training & Placement
-                </span>
+              <span className="text-white text-xs md:text-sm font-semibold tracking-wide whitespace-nowrap animate-pulse">
+                Training & Placement
+              </span>
+
+            </div>
+
+            {/* Other Institutions */}
+            <div className="mt-4">
+
+              <div className="text-white font-[Poppins] font-extrabold text-4xl md:text-6xl lg:text-7xl leading-[1.1] tracking-tight">
+                • ANNAI VALARMATHI TUITION CENTER
               </div>
 
-              <br />
-
-              <span className="text-white">
-                • ANNAI VALARMATHI TUITION CENTER
-              </span>
-
-              <br />
-
-              <span className="text-yellow-400">
+              <div className="text-yellow-400 font-[Poppins] font-extrabold text-4xl md:text-6xl lg:text-7xl leading-[1.1] tracking-tight mt-2">
                 • GOLDEN MIRACLE PLAY SCHOOL
-              </span>
+              </div>
 
-            </h5>
+            </div>
 
             <div className="flex flex-wrap gap-4 mt-10">
             </div>
