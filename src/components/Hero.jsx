@@ -42,14 +42,7 @@ export default function Hero() {
               <span className="text-pink-400 font-[Poppins] font-extrabold
                 text-3xl sm:text-4xl md:text-6xl lg:text-7xl
                 leading-[1.1] tracking-tight">
-                • YANIRA COMPUTER EDUCATION
-              </span>
-
-              {/* Training & Placement */}
-              <span className="text-pink-400 text-xs sm:text-sm
-                font-semibold tracking-wide whitespace-nowrap
-                animate-pulse">
-                Training & Placement
+                • YANIRA COMPUTER EDUCATION  |  Training & Placement
               </span>
 
             </div>
