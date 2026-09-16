@@ -46,7 +46,7 @@ export default function Hero() {
               </span>
 
               {/* Training & Placement */}
-              <span className="text-white text-xs sm:text-sm
+              <span className="text-pink-400 text-xs sm:text-sm
                 font-semibold tracking-wide whitespace-nowrap
                 animate-pulse">
                 Training & Placement
