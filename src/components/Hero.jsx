@@ -28,24 +28,39 @@ export default function Hero() {
 
           <div className="max-w-3xl">
 
-            
-
             <h5 className="text-green-500 font-[Poppins] font-extrabold text-4xl md:text-6xl lg:text-7xl leading-[1.1] tracking-tight">
-  Welcome to YAG Education
-  <br />
-  <br />
 
-  <span className="text-pink-400">• YANIRA COMPUTER EDUCATION</span>
-  <br />
-  <span className="text-white">• ANNAI VALARMATHI TUITION CENTER</span>
-  <br />
-  <span className="text-yellow-400">• GOLDEN MIRACLE PLAY SCHOOL</span>
-</h5>
+              Welcome to YAG Education
 
+              <br />
+              <br />
+
+              {/* Yanira + Training & Placement */}
+              <div className="flex items-center gap-3 flex-wrap">
+                <span className="text-pink-400">
+                  • YANIRA COMPUTER EDUCATION
+                </span>
+
+                <span className="text-white text-xs md:text-sm font-semibold tracking-wide animate-pulse">
+                  Training & Placement
+                </span>
+              </div>
+
+              <br />
+
+              <span className="text-white">
+                • ANNAI VALARMATHI TUITION CENTER
+              </span>
+
+              <br />
+
+              <span className="text-yellow-400">
+                • GOLDEN MIRACLE PLAY SCHOOL
+              </span>
+
+            </h5>
 
             <div className="flex flex-wrap gap-4 mt-10">
-
-
             </div>
 
           </div>
