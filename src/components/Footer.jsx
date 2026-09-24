@@ -44,12 +44,6 @@ export default function Footer() {
                 Institutions
               </a>
 
-              <a
-                href="#gallery"
-                className="text-gray-400 hover:text-yellow-400 transition"
-              >
-                Gallery
-              </a>
 
               <a
                 href="#contact"
