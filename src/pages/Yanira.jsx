@@ -20,7 +20,16 @@ export default function Yanira() {
 
             <p className="text-pink-400 uppercase tracking-[0.3em] font-semibold">
               Yanira Computer Education
+              <br />
             </p>
+
+
+            <br />
+            <h1 className="text-pink-400 uppercase tracking-[0.3em] font-semibold">
+              ISO 9001:2015 Certified
+              <br />
+            </h1>
+              
 
             <h1 className="text-5xl md:text-7xl font-bold mt-6 leading-tight">
               Learn Skills
